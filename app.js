@@ -77,7 +77,7 @@ app.use(cookieParser());
 app.io.session(session);
 
 auth.setup(app, session, core);
-
+debugger;
 // Security protections
 app.use(helmet.frameguard());
 app.use(helmet.hidePoweredBy());
